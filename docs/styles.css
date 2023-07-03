@@ -1,0 +1,152 @@
+body {
+    background-image: url(https://cdn.polyhaven.com/asset_img/primary/rock_wall_03.png);
+}
+
+.titlebox {
+    padding-left: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+.titlebox li a {
+    float: left;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 5px 2px rgba(0, 0, 0, 0.354);
+    font-weight: bolder;
+    font-family: Papyrus;
+    color: rgb(230, 192, 0);
+    text-decoration: double underline;
+}
+
+.titlebox li a:hover{
+    text-shadow: none;
+    color: rgb(255, 213, 0);
+    font-weight: bold;
+}
+
+.papyrus {
+    margin-top: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: Papyrus;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.381);
+    background: linear-gradient(0deg, rgba(173,162,148,1) 15%, rgba(250,235,215,1) 69%); 
+    border-inline: 1px solid #ADA294;
+}
+
+.papyrus h2{
+    margin-top: 0px;
+}
+
+.scrolltop {
+    margin-bottom: -17px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+
+.scrollbottom {
+    margin-top: -13px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 52.5%;
+    padding-left: 29px;
+}
+
+#menuscroll {
+    margin-top: -17px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 52.5%;
+    padding-left: 29px;
+}
+
+#filmscroll{
+    margin-top: -14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 52.5%;
+    padding-left: 29px;
+}
+
+#GarfRing table{
+    background: radial-gradient(circle, rgba(255,165,2,1) 0%, rgba(0,0,0,0) 100%);
+    font-family: Goudy Old Style;
+    text-shadow: none;
+}
+
+#GarfRing table a{
+    color: grey;
+    text-decoration: none;
+}
+
+#GarfRing table a:hover{
+    font-weight: bold;
+}
+
+#arts {
+    list-style-type: none;
+    margin-left: -1em;
+}
+
+#arts li a{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.566);
+    font-family: Copperplate Gothic;
+    text-shadow: none;
+    text-decoration: none;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.384) 0%, rgba(255,255,255,0) 100%);
+}
+
+#arts li a:hover{
+    font-weight: bold;
+}
+
+.mediaplayer {
+    margin-inline: 20%;
+    border: 2px ridge goldenrod;
+    box-shadow: 2px 2px grey;
+    background: linear-gradient(90deg, rgb(247, 205, 0) 1%, rgba(255,255,255,1) 44%);
+    margin-bottom: 2%;
+}
+
+.mediaplayer a {
+    text-shadow: none;
+    text-decoration: none;
+    color: black;
+}
+
+.mediaplayer a:hover{
+    font-weight: bolder;
+    color: rgb(94, 80, 0);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.082);
+}
+
+.mediaplayer audio{
+    border: 1px solid black;
+}
+
+.mediaplayer video{
+    border: 3px inset goldenrod;
+}
+
+.mediaplayer img{
+    border: 3px inset goldenrod;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    overflow: hidden;
+}
