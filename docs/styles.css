@@ -30,10 +30,6 @@ body {
 }
 
 .papyrus {
-    border-image:url("https://upload.wikimedia.org/wikipedia/commons/3/33/Jair_Bolsonaro_2022_%28cropped%29.jpg");
-    border-top:0;
-    border-left:0;
-    border-right:0;
     margin-top: 0px;
     display: block;
     margin-left: auto;
