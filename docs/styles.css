@@ -30,6 +30,10 @@ body {
 }
 
 .papyrus {
+    border-image:url("http://lorempixel.com/g/400/100/?example.jpg");
+    border-top:0;
+    border-left:0;
+    border-right:0;
     margin-top: 0px;
     display: block;
     margin-left: auto;
